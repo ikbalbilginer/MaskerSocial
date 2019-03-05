@@ -1,0 +1,63 @@
+﻿<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+
+<div class="ques">
+
+    <!-- Question textarea and button -->
+    <div class="d-block" style="padding:10px;">
+        <label for="comment">Ask something!</label>
+
+        <div id="msgarea"></div>
+
+        <div id="txtarea">
+            <textarea id="ask-txt" class="form-control" rows="5" cols="15"></textarea>
+        </div>
+        <input type="hidden" id="userid" name="UserId" value="@((int)TempData["userCurrent"])" />
+        <button id="ask-btn" class="btn btn-primary">Gönder</button>
+        
+    </div>
+
+    <!-- Question ifD-->
+
+</div>
+
+<script>
+    $(document).click(function () { // you don't need the else part to fadeout
+      var $el = $("#txtarea");
+      
+          $el.fadeIn(300);
+          $('#ask-txt').val('');
+    });
+
+    $( function()
+    {
+        $("#ask-btn").click( function () {
+
+        if (!$.trim($("#ask-txt").val())) {
+    alert("Boş mesaj gönderemezsin!!")
+} 
+    else{
+
+            var userid = $('#userid').val();
+
+        $.ajax({
+       type: "POST",
+       url:"User/QuestionBox",
+       data: JSON.stringify({
+              Que: $('#ask-txt').val(),
+              UserId: userid,
+       }),
+       cache: false,
+       dataType: "json",
+       contentType: "application/json; charset=utf-8",
+       success: function (json) {
+         $('#txtarea').fadeToggle();
+         $('#msgarea').append('<div class="alert alert-success alert-dismissible"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a><strong>Success!</strong> Indicates a successful or positive action.</div>');
+        } 
+            }); 
+    }
+        });
+    })
+</script>
+
+
+

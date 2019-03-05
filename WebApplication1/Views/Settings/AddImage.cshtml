@@ -1,0 +1,16 @@
+﻿
+@using (Html.BeginForm("AddImage", "Settings", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{ 
+    <div>
+        
+
+        <div name="img" class="form-group">
+            <input type="file" id="image" name="image" />
+        </div>
+
+        <div name="img" class="form-group">
+            <input type="submit" id="picturesubmit" class="btn btn-success" />
+        </div>
+    </div>    }
+
+

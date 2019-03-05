@@ -1,0 +1,41 @@
+﻿@using WebApplication1.Models
+@model User
+
+@{
+    ViewBag.Title = "UserProfile";
+    Layout = "~/Views/Shared/_ProfileLayout.cshtml";
+}
+
+
+<h2></h2>
+
+<div class="container">
+
+    @Html.Partial("BigUserCard", Model)
+
+    <div class="row" style="margin-left:0px;">
+        <div class="col-5" style="margin-top:15px;">
+            @if (((User)Session["user"]) != Model)
+            {
+                <div id="ask-que-partial" class="d-block">
+                    @Html.Action("QuestionBox", "User")
+                </div>
+            }
+            <div id="flw-adv" class="d-block">
+                @Html.Action("Index", "UserCards")
+            </div>
+            <!--settings vb-->
+            <div id="settings" class="d-block">
+
+            </div>
+
+        </div>
+        <!-- Questions and answers here-->
+        <div id="transporter" class="col-7" style="margin-top:16px;">
+            @Html.Action("QACard", "Answer", Model)
+        </div>
+    </div>
+</div>
+
+
+

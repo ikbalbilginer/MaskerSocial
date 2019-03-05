@@ -1,0 +1,336 @@
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.AppContext.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Console.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.IO.Pipes.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Security.Claims.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.ValueTuple.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\Antlr3.Runtime.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\System.Web.Helpers.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\System.Web.Mvc.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\System.Web.Optimization.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\System.Web.Razor.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\System.Web.WebPages.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\WebGrease.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\System.Web.WebPages.xml
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.xml
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\EntityFramework.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\EntityFramework.SqlServer.dll
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\EntityFramework.xml
+C:\Users\İkbal\Desktop\WebApplication1\WebApplication1\bin\EntityFramework.SqlServer.xml
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\System.AppContext.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\System.Console.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\System.Security.Claims.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\System.ValueTuple.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\Antlr3.Runtime.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\EntityFramework.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\EntityFramework.SqlServer.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\System.Web.Helpers.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\System.Web.Mvc.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\System.Web.Optimization.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\System.Web.Razor.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\System.Web.WebPages.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\WebGrease.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\EntityFramework.xml
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\EntityFramework.SqlServer.xml
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\System.Web.WebPages.xml
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.xml
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Section1\Desktop\proje\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\System.AppContext.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\System.Console.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\System.IO.Pipes.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\System.Security.Claims.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\System.ValueTuple.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\Antlr3.Runtime.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\EntityFramework.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\EntityFramework.SqlServer.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\System.Web.Helpers.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\System.Web.Mvc.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\System.Web.Optimization.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\System.Web.Razor.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\System.Web.WebPages.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\WebGrease.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\EntityFramework.xml
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\EntityFramework.SqlServer.xml
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\System.Web.WebPages.xml
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.xml
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\İkbal\Desktop\Yeni klasör\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+D:\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+D:\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+D:\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+D:\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+D:\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+D:\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+D:\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WebApplication1\WebApplication1\bin\roslyn\System.AppContext.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\System.Console.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\System.IO.Pipes.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\System.Security.AccessControl.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\System.Security.Claims.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\System.Security.Principal.Windows.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\System.ValueTuple.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+D:\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+D:\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+D:\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+D:\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+D:\WebApplication1\WebApplication1\bin\Antlr3.Runtime.dll
+D:\WebApplication1\WebApplication1\bin\EntityFramework.dll
+D:\WebApplication1\WebApplication1\bin\EntityFramework.SqlServer.dll
+D:\WebApplication1\WebApplication1\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WebApplication1\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+D:\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+D:\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.dll
+D:\WebApplication1\WebApplication1\bin\System.Web.Helpers.dll
+D:\WebApplication1\WebApplication1\bin\System.Web.Mvc.dll
+D:\WebApplication1\WebApplication1\bin\System.Web.Optimization.dll
+D:\WebApplication1\WebApplication1\bin\System.Web.Razor.dll
+D:\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+D:\WebApplication1\WebApplication1\bin\System.Web.WebPages.dll
+D:\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.dll
+D:\WebApplication1\WebApplication1\bin\WebGrease.dll
+D:\WebApplication1\WebApplication1\bin\EntityFramework.xml
+D:\WebApplication1\WebApplication1\bin\EntityFramework.SqlServer.xml
+D:\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+D:\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+D:\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
+D:\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+D:\WebApplication1\WebApplication1\bin\System.Web.WebPages.xml
+D:\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+D:\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.xml
+D:\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+D:\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
+D:\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.xml
+D:\WebApplication1\WebApplication1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+D:\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+D:\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+D:\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+D:\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb

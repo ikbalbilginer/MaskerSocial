@@ -1,0 +1,44 @@
+﻿@using WebApplication1.Models
+@model User
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+
+<div class="twPc-div">
+    <a class="twPc-bg twPc-block"></a>
+    <div>
+        
+        <div class="twPc-button">
+            <button class="follow-btn @Html.Raw(((User)Session["user"]).Following.Contains(Model) ?"unfollow":"")" value="@Model.UserId">@Html.Raw(((User)Session["user"]).Following.Contains(Model) ?"Unfollow":"Follow")</button>
+        </div>
+
+        <!-- profil resm,-->
+        <a title="Mert S. Kaplan" href="#" class="twPc-avatarLink">
+            @if (Model.UserImage != null)
+    {
+        <div>
+            <img class="twPc-avatarImg" src="data:image;base64,@Convert.ToBase64String(Model.UserImage.Image)" />
+        </div>
+}
+            @*<img alt="Mert S. Kaplan" src="@Model.ImageURL" class="twPc-avatarImg">*@
+        </a>
+
+        <div class="twPc-divUser">
+            <!--isim soyisim-->
+            <div class="twPc-divName">
+                <a href="../@Model.NickName">@(Model.Name+" "+Model.Surname)</a>
+            </div>
+            <!--nickname-->
+            <span>
+                <a href="../@Model.NickName">@@<span>@Model.NickName</span></a>
+            </span>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+

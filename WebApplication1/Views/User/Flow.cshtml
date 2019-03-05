@@ -1,0 +1,128 @@
+﻿@using WebApplication1.Models
+@model List<Question>
+@{
+    ViewBag.Title = "Flow";
+    Layout = "~/Views/Shared/_ProfileLayout.cshtml";
+}
+
+<style>
+    .pp {
+        width: 80px;
+        height: 80px;
+        border: 2px solid;
+        border-color: purple;
+    }
+
+    .ques {
+        text-align: justify;
+        padding-right: 12px;
+        margin-bottom: 18px;
+    }
+
+    .que-text {
+        border-left: 3px solid red;
+        padding-left: 10px;
+    }
+
+    .likeicon {
+        text-align: right;
+        color: darkgrey;
+        cursor: pointer;
+    }
+
+    .red {
+        color: red !important;
+    }
+</style>
+
+
+
+<div class="container">
+
+    <div class="row" style="margin-left:0px;">
+
+        <div class="col-5" style="margin-top:15px;">
+
+            <div id="flw-adv" class="d-block">
+                @Html.Action("Index", "UserCards")
+            </div>
+
+            <!--settings vb-->
+            <div id="settings" class="d-block">
+
+            </div>
+
+        </div>
+        <!-- Questions and answers here-->
+        <div id="transporter" class="col-7">
+            @if (Model.Count == 0)
+    {
+        <div class="ques">
+            <h3>Don't be <span style="color:darkred">asocial</span></h3>
+            <br />
+            <h4>Follow somebody...</h4>
+        </div>
+
+}
+else
+{
+
+foreach (Question item in Model)
+{
+        
+
+        <div class="ques">
+
+            <h6 class="que-text">
+                @item.Que
+            </h6>
+
+
+            <div class="row">
+                <p class="col-1"></p><p class="col-11">@item.Answer.Ans</p>
+            </div>
+
+
+            <div class="likeicon d-block @(Html.Raw(((User)Session["user"]).LikedAnswers.Contains(item.Answer)?"red":"")) ">
+                <input type="hidden" class="answerid" value="@item.Answer.AnswerId" />
+                <i class="fas fa-heart"> <span style="color:crimson">@item.Answer.likeCount</span></i>
+            </div>
+
+        </div>
+}
+}
+
+        </div>
+
+    </div>
+</div>
+
+<script>
+    $('.likeicon').click( function()
+{
+    var isLiked = $(this).hasClass('red');
+    var url="";
+    if(isLiked){url="@Url.Action("LikeRemove", "Answer")";}else{url="@Url.Action("LikeAdd","Answer")";}
+
+    var answerid = $(this).parent('.ques').find('.answerid').val();
+
+
+    $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: {
+                        answerid: answerid,
+                    },
+                    cache: false,
+                    success: function() {}
+                    });
+
+    $(this).toggleClass('red');
+
+    })
+
+
+
+
+</script>
+

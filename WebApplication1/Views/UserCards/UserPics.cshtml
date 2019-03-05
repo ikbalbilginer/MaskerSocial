@@ -1,0 +1,28 @@
+﻿@using WebApplication1.Models
+@model List<User>
+<style>
+    .profilpic {
+        display: inline-block;
+        margin: auto;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        position: relative;
+        background: linear-gradient(45deg,#d7d7d7,#fff);
+        box-shadow: 0 0 0 2px hsla(0,0%,100%,.5);
+        cursor: pointer;
+        padding: 0;
+        margin-left:15px;
+    }
+</style>
+
+<div style="width:100%;">
+    @foreach (User item in Model)
+    {
+    <div class="profilpic" data-toggle="tooltip" data-placement="top" title="@(item.Name+" "+item.Surname)">
+        <a href="../@item.NickName">
+            <img src="item.ImageURL" style="width:100%;" />
+        </a>
+    </div>
+    }
+</div>

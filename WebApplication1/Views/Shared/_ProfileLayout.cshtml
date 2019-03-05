@@ -1,0 +1,311 @@
+﻿@using WebApplication1.Models
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>PROFIL LAYOUT</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+        body {
+            background-color: #e8e8ed !important;
+        }
+
+        #navbarSupportedContent {
+            margin-left: 13%;
+        }
+
+        ul li {
+            margin-left: 9%;
+        }
+
+        .nav-isimresim {
+            width: max-content;
+        }
+
+        @@media (min-width: 1200px) {
+            .container {
+                max-width: 900px !important;
+            }
+        }
+
+        .container {
+            margin-top: 15px;
+        }
+
+        .profilpic {
+            display: block;
+            margin: auto;
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            position: relative;
+            background: linear-gradient(45deg,#d7d7d7,#fff);
+            box-shadow: 0 0 0 2px hsla(0,0%,100%,.5);
+            cursor: pointer;
+            padding: 0;
+        }
+
+            .profilpic img {
+                max-width: 100%;
+                margin: auto;
+            }
+
+        .pp-pn-nn {
+            margin: auto;
+            text-align: center;
+        }
+
+        .ques {
+            background-color: white !important;
+            border-radius: 6px;
+            padding: 8px;
+            margin-top: 9px;
+            border: 1px solid;
+            box-shadow: 5px 5px 8px 2px #888888;
+        }
+
+        .ikidev {
+            padding: 0;
+        }
+
+        .unfollow {
+            background: red;
+            color: white;
+        }
+
+        .notification .badge {
+            top: -10px;
+            right: -10px;
+            padding: 5px 10px;
+            border-radius: 50%;
+            background: red;
+            color: white;
+        }
+
+        .navbar.navbar-expand-lg {
+            position: sticky;
+            top: 0;
+            z-index: 101;
+            width: 100% !important;
+            background-color: #ffffff;
+            /*background: -webkit-linear-gradient(45deg, rgba(168,0,119,1) 17%,rgba(168,0,119,1) 17%,rgba(203,96,179,1) 41%,rgba(203,96,179,1) 41%,rgba(219,54,164,1) 59%,rgba(193,70,161,1) 67%); /* Chrome10-25,Safari5.1-6 */ */
+        }
+
+        .nav-link {
+            font-size: large;
+            color: aliceblue;
+        }
+
+        #transporter {
+            margin-top: 14px;
+        }
+
+        .navbar i {
+            font-size: larger;
+            color: purple;
+        }
+    </style>
+
+    <link href="~/Content/CSS_Ask-ProfilePage/twtUserCards.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    @if (Session["user"] != null)
+    {
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!--logo buraya-->
+            <a class="navbar-brand" style="margin-left:15%; font-family:Broadway; font-size:32px; color:rebeccapurple;" href="#">Masker</a>
+
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a id="flow" class="nav-link" href="@Url.Action("Flow", "User")"><i class="fas fa-home"></i><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" style="width:max-content" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-user"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="../@(((User)Session["user"]).NickName)">My Page</a>
+                            <a class="dropdown-item" href="@Url.Action("Edit","Users")">Settings</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="@Url.Action("Logout","Home")">Logout</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div>
+                            <a class="nav-link notification" href="@Url.Action("AnsweringPage", "User")" style="width:max-content">
+                                <span><i class="far fa-question-circle"></i></span>
+
+                                @if (((User)Session["user"]).Questions.Where(q => q.Answer == null).ToList().Count == 0)
+                                {
+
+                                }
+                                else
+                                {
+                                    <span class="badge">
+                                        @(((User)Session["user"]).Questions.Where(q => q.Answer == null).ToList().Count)
+                                    </span>
+                                }
+
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <div>
+                            <a class="nav-link notification" href="@Url.Action("MyBadges", "Badge")" style="width:max-content">
+                                <span><i class="fas fa-bell"></i></span>
+
+                                @if (((User)Session["user"]).Badges.ToList().Count == 0)
+                                {
+
+                                }
+                                else
+                                {
+                                    <span class="badge">
+                                        @(((User)Session["user"]).Badges.ToList().Count)
+                                    </span>
+                                }
+
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+
+
+                <div class="nav-item nav-isimresim d-inline-block" style="text-align:center">
+
+                    <a class="navbar-brand" style="display:inline; margin-left:10%; color:purple; display:inline-block;" href="#">
+                        <!-- -->
+                        @(((User)Session["user"]).Name + " " + ((User)Session["user"]).Surname)
+
+                    </a>
+                    @if (((User)Session["user"]).UserImage != null)
+                    {
+                        <img style="display:inline; max-width:10%;" src="data:image;base64,@Convert.ToBase64String(((User)Session["user"]).UserImage.Image)" />
+                    }
+                </div>
+            </div>
+
+
+        </nav>
+    }
+    else
+    {
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <h4 class="nav-item active">
+                    <a class="nav-link" href="/User/Index"> ÜYE OL <span class="sr-only">(current)</span></a>
+                </h4>
+
+            </div>
+
+            <!--logo buraya-->
+            <a class="navbar-brand" style="margin:auto;" href="#">Navbar</a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <h4 class="nav-item active">
+                    <a class="nav-link" href="@Url.Action("Login","Home")"> GİRİŞ YAP <span class="sr-only">(current)</span></a>
+                </h4>
+
+            </div>
+        </nav>
+    }
+
+    @RenderBody()
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+
+    <script src="~/Content/bootstrap.min.js"></script>
+    @if (Session["user"] != null)
+    {
+        <script>
+    $(function () {
+
+        $('.follow-btn').click(function () {
+
+            if ($(this).text() == "Follow") {
+
+                $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("Follow", "UserCards")",
+                    data: {
+                        userid: '@(((User)Session["user"]).UserId)',
+                        id: $(this).val(),
+                    },
+                    cache: false,
+                    dataType: "json",
+                    success: function () {
+                        alert("follow");
+
+                    }
+                });
+            }
+            else if ($(this).text() == "Unfollow") {
+
+                $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("Unfollow", "UserCards")",
+                    data: {
+                        userid: @(((User)Session["user"]).UserId),
+                        id: $(this).val(),
+                    },
+                    cache: false,
+                    dataType: "json",
+                    success: function () {
+                        alert("unfollow");
+
+                    }
+                });
+            }
+            $(this).text(function (_, text) {
+                return text === "Follow" ? "Unfollow" : "Follow";
+            })
+
+            if ($(this).text() == "Follow") {
+                $(this).removeClass('unfollow');
+            } else if ($(this).text() == "Unfollow") {
+                $(this).addClass('unfollow');
+            }
+
+        });
+    });
+        </script>
+
+        <script>
+            $(function () {
+                $('.notification').click(function () {
+                    $(this).find('.badge').remove();
+                });
+            });
+        </script>
+    }
+</body>
+</html>
+
+

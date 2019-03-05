@@ -1,0 +1,120 @@
+﻿
+#japonimg {
+    width: 100%;
+    position: absolute;
+    z-index: -100;
+}
+
+.maske {
+    position: absolute;
+    left: 16%;
+    top: 1%;
+}
+
+.maske2 {
+    position: absolute;
+    left: 21%;
+    top: 9%;
+}
+
+.maske3 {
+    position: absolute;
+    left: 19%;
+    top: 19%;
+}
+
+.maske4 {
+    position:absolute;
+    left:18%;
+    top:12%;
+}
+
+.maskeslogan {
+    height: 100%;
+}
+
+.maske img {
+    max-width: 100%;
+    width: 34%;
+}
+
+.maske2 img {
+    max-width: 100%;
+    width: 21%;
+}
+
+.maske3 img {
+    max-width: 100%;
+    width: 32%;
+}
+
+.maske4 img {
+    max-width:100%;
+    width:43%;
+}
+
+.caro {
+    text-align: center;
+    margin-top: 65px;
+    margin-right: 15px;
+}
+
+.beforerow {
+    height: 570px;
+}
+
+.row {
+    height: 100%;
+}
+
+@media (max-width:600px) {
+    #japonimg {
+        position: relative;
+    }
+
+    .maske, .maske2, .maske3 {
+        visibility: hidden;
+    }
+
+    .maskeslogan {
+        width: 100%;
+        font-size: 10vw;
+    }
+}
+
+/* Burdan sonra registration plugini*/
+
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+    .divider-text span {
+        padding: 7px;
+        font-size: 12px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .divider-text:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+        top: 55%;
+        left: 0;
+        z-index: 1;
+    }
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+
+.btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
+}
+

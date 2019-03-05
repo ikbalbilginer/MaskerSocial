@@ -1,0 +1,21 @@
+﻿@using WebApplication1.Models
+@model List<User>
+
+@{
+    Layout = null;
+}
+
+<div class="ques">
+    <h5>You can follow:</h5>
+    <hr />
+    @foreach (User item in Model)
+    {
+    <div style="margin-top:10px;">
+        @Html.Partial("UserCard", item)
+    </div>
+    } 
+</div>
+
+
+
+

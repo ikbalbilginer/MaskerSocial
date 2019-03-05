@@ -1,0 +1,200 @@
+﻿<style>
+    .katil {
+        margin-left: 60%;
+        margin-right: 16%;
+        width: 16%;
+        margin-top: 25%;
+        position:absolute;
+        z-index:99;
+    }
+
+    .giris {
+        margin-left: 66%;
+        margin-right: 16%;
+        width: 16%;
+        margin-top: 30%;
+        position: absolute;
+        z-index: 99;
+        font-size:20px;
+        cursor:pointer;
+    }
+
+    .red {
+        color:red;
+    }
+
+    .orange {
+        color: orange;
+    }
+
+    .yellow {
+        color: yellow;
+    }
+
+    .blue {
+        color: blue;
+    }
+
+    .green {
+        color: green;
+    }
+
+    .purple {
+        color: purple;
+    }
+
+
+</style>
+
+<div style="width:100%; margin:0 ; padding:0;">
+
+    <img id="japonimg" style="width:100%; position:absolute;" src="~/Content/Images/japonreis1.jpg" />
+    <!-- Hemen KAydol butonu-->
+
+    <button class="btn btn-primary btn-lg katil" onclick="location.href='../User/Index'">Join Now</button>
+    <a class="giris" data-toggle="modal" data-target="#myModal">Log in</a>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        @Html.Action("Login","Home")
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+
+   
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+
+        <!-- arkaplandaki japon reisin resmi-->
+        <!--carousel-->
+
+        <div class="carousel-inner" style="width:100%">
+
+            <div class="carousel-item active">
+
+                <div class="maske">
+                    <img src="~/Content/Images/clown2.gif" />
+                </div>
+                <div class="beforerow">
+                    <div class="row">
+                        <div class="col-6"></div>
+
+                        <div class="maskeslogan col-5">
+                            <h1 class="caro">
+                                <span class="red">You </span>
+                                <span class="orange">can </span>
+                                <span class="yellow">choose </span>
+                                <span class="green">and </span>
+                                <span class="blue">answer </span>
+                                <span class="purple">from </span>
+                                <span class="red">a lot of </span>
+                                <span class="orange">funny </span>
+                                <span class="yellow">questions </span>
+                                <span class="green">! </span>
+                            </h1>
+                        </div>
+
+                        <div class="col1"></div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="carousel-item">
+
+                <div class="maske2">
+                    <img src="~/Content/Images/hatglasses2.gif" />
+                </div>
+                <div class="beforerow">
+                    <div class="row">
+                        <div class="col-6"></div>
+
+                        <div class="maskeslogan col-5">
+                            <h1 class="caro">There are so many people you can communicate and fun with! Let's ask something to people!</h1>
+                        </div>
+                        <div class="col-1"></div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="carousel-item">
+
+
+                <div class="maske3">
+
+                    <img src="~/Content/Images/vendetta2.gif" />
+                </div>
+                <div class="beforerow">
+                    <div class="row">
+                        <div class="col-6"></div>
+
+                        <div class="maskeslogan col-5">
+                            <h1 class="caro"> Your identity will <span style="color:white;">remain anonymous;</span> so don't limit yourself; <span style="color:white;">satisfy your</span> curiosity!</h1>
+                        </div>
+                        <div class="col-1"></div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="carousel-item">
+
+                <div class="maske4">
+
+                    <img src="~/Content/Images/dalie.gif" />
+                </div>
+                <div class="beforerow">
+                    <div class="row">
+                        <div class="col-6"></div>
+
+                        <div class="maskeslogan col-5">
+                            <h1 class="caro"> MAsker where you can <span class="red">meet new friends</span>, and can discuss <span class="red">about your</span> interests!</h1>
+                        </div>
+                        <div class="col-1"></div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+
+    </div>
+
+</div>
+
+@Html.Partial("Footer")
+
+
+   
+

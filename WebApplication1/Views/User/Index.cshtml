@@ -1,0 +1,123 @@
+﻿
+@{
+    Layout = Layout = "~/Views/Shared/_ProfileLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+    <style>
+        .card.bg-light {
+            width: 50%;
+            margin: auto;
+        }
+
+        body {
+            background-color: purple !important;
+            background-image: radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px), radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px), radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px), radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+            background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+            background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+        }
+
+        i {
+            color: purple;
+        }
+    </style>
+
+
+
+
+
+</head>
+<body>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+
+    <div class="container col-4">
+        <hr>
+
+        <div class="card bg-light">
+            <article class="card-body mx-auto" style="max-width: 400px;">
+                <h4 class="card-title mt-3 text-center">Create Account</h4>
+                <p class="text-center">Get started with your free account</p>
+                
+                <form method="post">
+
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                        </div>
+                        <!-- NAME SURNAME-->
+                        <input name="Name" class="form-control" placeholder="Name" type="text">
+                        <input name="Surname" class="form-control" placeholder="Surname" type="text">
+                    </div> <!-- form-group// -->
+
+
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fas fa-user-ninja"></i> </span>
+                        </div>
+                        <!--NICKNAME-->
+                        <input name="NickName" class="form-control" placeholder="Choose a username" type="text">
+                    </div>
+
+                    <!---->
+                    <div class="form-group input-group" ">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+                        </div>
+                        <input name="Email" class="form-control" placeholder="Email address" type="email">
+                    </div> <!-- form-group// -->
+                    
+
+                    <div class="row">
+                        <label class="container col-5">
+                            Male
+                            <input type="radio" checked="checked" name="Gender" value="true" />
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container col-5">
+                            Female
+                            <input type="radio" name="Gender" value="false">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+
+                    <!---->
+                    <div class="form-group input-group" style="margin-top:5%;">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                        </div>
+                        <input class="form-control" placeholder="Create password" type="password">
+                    </div>
+                    <!-- form-group// -->
+
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                        </div>
+                        <input class="form-control" name="Password" placeholder="Repeat password" type="password">
+                    </div> <!-- form-group// -->
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-block"> Create Account  </button>
+                    </div> <!-- form-group// -->
+                    <p class="text-center">Have an account? <a href="@Url.Action("Login","Home")" />Log In</a> </p>
+                </form>
+            </article>
+        </div> <!-- card.// -->
+    </div>
+    <!--container end.//-->
+    <br><br>
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+﻿@using WebApplication1.Models
+@model List<Badge>
+
+@{
+    ViewBag.Title = "AnsweringPage";
+    Layout = "~/Views/Shared/_ProfileLayout.cshtml";
+}
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+
+<style>
+    .likeBadge i {
+        font-size: 65px;
+        color: red;
+    }
+
+    .followBadge i {
+        font-size: 65px;
+        color: purple;
+    }
+
+    .closer {
+        cursor: pointer;
+    }
+</style>
+
+<h5>Notifications</h5>
+
+<div class="container">
+
+    <div class="row" style="margin-left:0px;">
+
+        <div class="col-5" style="margin-top:15px;">
+
+            <div id="flw-adv" class="d-block">
+                @Html.Action("Index", "UserCards")
+            </div>
+
+            <!--settings vb-->
+            <div id="settings" class="d-block">
+
+            </div>
+
+        </div>
+        <!-- Questions and answers here-->
+        <div id="transporter" class="col-7">
+            @if (Model.Count == 0)
+            {
+                <div class="ques">
+                    <h4>Nobody loves you...</h4>
+                </div>
+            }
+            else
+            {
+
+                foreach (var item in Model)
+                {
+                    if (item.Kind == Kind.Follow)
+                    {
+                        <div class="ques followBadge">
+                            <div class="row">
+                                <div class="col-3">
+                                    <i class="far fa-grin-wink"></i>
+                                </div>
+                                <div class="col-8">
+                                    <h6 class="que-text">
+                                        <p>You have a new follower:</p>
+                                        <a href="../@item.FollowerNickName"> @@@item.FollowerNickName </a> <span>is following you!</span>+
+                                    </h6>
+                                </div>
+                                <div class="col-1">
+                                    <input type="hidden" class="badgeid" value="@item.Id" />
+
+                                    <span class="closer">X</span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    }
+                    else
+                    {
+                        <div class="ques likeBadge">
+                            <div class="row">
+                                <div class="col-3">
+                                    <i class="fab fa-gratipay"></i>
+                                </div>
+
+                                <div class="col-8">
+                                    <h6 class="que-text">
+                                        Someone liked your reply:
+                                    </h6>
+
+                                    <div class="ques">
+                                        <h6 class="que-text">
+                                            @item.LikedAnswer.Question.Que
+                                        </h6>
+
+                                        <div class="row">
+                                            <p class="col-1"></p><p class="col-11">@item.LikedAnswer.Question.Que</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col-1">
+                                    <input type="hidden" class="badgeid" value="@item.Id" />
+                                    <span class="closer">X</span>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            }
+
+
+
+        </div>
+    </div>
+</div>
+
+<script>
+    $('.closer').click( function()
+{
+    var url="@Url.Action("DeleteBadge","Badge")";
+
+    var badgeid = $(this).parent('.col-1').find('.badgeid').val();
+
+    $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: {
+                        badgeid: badgeid,
+                    },
+                    cache: false,
+                    success: function() {}
+                    });
+
+    $(this).parents('.followBadge, .likeBadge').fadeOut();
+
+    })
+
+
+
+
+</script>
+
+

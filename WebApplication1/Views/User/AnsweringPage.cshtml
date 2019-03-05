@@ -1,0 +1,90 @@
+﻿@using WebApplication1.Models
+@model List<Question>
+@{
+    ViewBag.Title = "AnsweringPage";
+    Layout = "~/Views/Shared/_ProfileLayout.cshtml";
+}
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+
+
+
+<div class="container">
+
+    <div class="row" style="margin-left:0px;">
+
+        <div class="col-5" style="margin-top:15px;">
+
+            <div id="flw-adv" class="d-block">
+                @Html.Action("Index", "UserCards")
+            </div>
+
+            <!--settings vb-->
+            <div id="settings" class="d-block">
+
+            </div>
+
+        </div>
+        <!-- Questions and answers here-->
+        <div id="transporter" class="col-7">
+            @if (Model.Count == 0)
+            {
+                <div class="ques">
+                    <h4>There is no question for you!</h4>
+                </div>
+            }
+
+            @foreach (Question item in Model)
+            {
+                <div class="ques">
+                    <div>
+                        <h3>@item.Que</h3>
+                        <br />
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#@item.QuestionId">Cevapla</button>
+                        <div id="@item.QuestionId" class="collapse">
+
+                            <textarea class="answertxt" rows="4" cols="40"></textarea>
+
+                            <input type="hidden" id="questionid" value="@item.QuestionId" />
+                            <button class="answer-btn btn btn-primary">Send!</button>
+
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+
+        $(".answer-btn").click(function () {
+            var buton = $(this);
+            var answer = buton.parent('.collapse').find('textarea').val();
+            var questionid = buton.parent('.collapse').find('#questionid').val();
+
+            if (!$.trim(answer)) {
+                alert("Boş mesaj gönderemezsin!!")
+            }
+            else {
+
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("AnsweringPage","User")',
+                    data: JSON.stringify({
+                        questionid: questionid,
+                        answer: answer,
+                    }),
+                    cache: false,
+                    dataType: "json",
+                    contentType: "application/json; charset=utf-8",
+                    success: function (json) {
+                        buton.parent().parent().hide();
+                        buton.parent().parent().parent().append('<div class="alert alert-success alert-dismissible"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a><strong>Success!</strong> Cevabın yayınlandı! </div>');
+                    }
+                });
+            }
+        });
+    })
+</script>
+
